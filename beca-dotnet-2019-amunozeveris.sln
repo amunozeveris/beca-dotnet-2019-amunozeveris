@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.271
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "BecaDotNet2019.Amunozeveris.Apps.Console\ConsoleApp\ConsoleApp.csproj", "{8D75FEE6-12E4-45D3-BC81-3E05D5D3114A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessCore", "BusinessCore\BusinessCore.csproj", "{746C6256-30AD-4619-B555-174A467668A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{C9804D33-5E34-40CD-B1FD-6A7B013E4FF3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8D75FEE6-12E4-45D3-BC81-3E05D5D3114A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8D75FEE6-12E4-45D3-BC81-3E05D5D3114A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8D75FEE6-12E4-45D3-BC81-3E05D5D3114A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8D75FEE6-12E4-45D3-BC81-3E05D5D3114A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{746C6256-30AD-4619-B555-174A467668A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{746C6256-30AD-4619-B555-174A467668A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{746C6256-30AD-4619-B555-174A467668A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{746C6256-30AD-4619-B555-174A467668A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9804D33-5E34-40CD-B1FD-6A7B013E4FF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9804D33-5E34-40CD-B1FD-6A7B013E4FF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9804D33-5E34-40CD-B1FD-6A7B013E4FF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9804D33-5E34-40CD-B1FD-6A7B013E4FF3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
